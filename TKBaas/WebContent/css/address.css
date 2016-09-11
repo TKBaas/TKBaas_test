@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.top-bg{
+ 	 background-image: url("../images/bg/123.jpg");
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ 	 padding-bottom: 20px;
+}
+
+/*信息栏*/
+.user-info>div{
+	display: inline-block;
+ 	margin: 25px 60px 15px 0;
+ 	line-height: 3em;address-delete
+ 	vertical-align: middle;
+
+}
+
+.user-pic-div{
+	width: 200px;
+	height: 200px;
+	background-color: #ea4f38;
+	border-radius: 100px;
+}
+.user-pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+
+.user-info{
+	width: 950px;
+}
+
+#info-detial>a{
+	transform: translateY(20px);
+	/*color:#ea4f38;*/
+	display: block;
+	height: 35px;
+}
+
+/**/
+
+.address{
+	width: 1000px;
+	padding: 0 0px 15px;
+	background-color: #FFF;
+	margin: 0 auto;
+}
+
+
+h4>span{
+	color:#0094F2;
+	margin: 0 10px;
+}
+p{
+	margin-top: 10px;
+}
+p>span{
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+.add-address{
+	display: inline-block;
+	border:1px solid #CCC;
+	height: 35px;
+	line-height: 35px;
+	width: 180px;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+
+.adressi{
+	position: relative;
+	border:1px solid #CCC;
+	padding: 5px 20px 20px;
+}
+
+.address-setting{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 16px;
+	color: #6AAEF5;
+}
+.address-delete{
+	width:20px;
+	font-size:20px;
+	position: absolute;
+	top: 15px;
+	right: 20px;	
+}
+.address-delete>a,.address-setting>a{
+	color: #6AAEF5;
+}	

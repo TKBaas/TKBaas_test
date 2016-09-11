@@ -1,0 +1,105 @@
+@charset "UTF-8";
+#register-head{
+	padding: 15px 0;
+}
+
+#register-head p{
+	margin-left: 16px;
+	height: 100%;
+	display: inline-block;
+	font-size: 28px;
+}
+
+/* 登陆主体 */
+#register-main-content{
+	background-color: #e93854;
+}
+#register-main-content .register-content{
+	position: relative;
+	height: 475px;
+}
+#register-main-content .main-content-bg{
+	position: absolute;
+	left: -85px;
+	top: 0;
+	height:475px;
+	width: 990px; 
+	background: url(../images/login/login_bg.png) no-repeat;
+}
+#register-main-content .main-content-right{
+	position: relative;
+    z-index: 4;
+    float: right;
+    overflow: visible;
+    width: 360px;
+    padding: 0 20px;
+    background: #f8f8f8;
+    margin-top: 10px; 
+}
+
+#register-main-content .main-content-right h3{
+	margin-top: 10px;
+	text-align: center;
+}
+
+#register-main-content #registerForm{
+	max-width: 640px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+#register-main-content #registerForm .user-name,
+#register-main-content #registerForm .user-pass,
+#register-main-content #registerForm .conf-pass{
+	position: relative;
+    height: 62px;
+    margin-bottom: 5px;
+}
+#register-main-content #registerForm span{
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    text-align: center;
+    top: 1px;
+    left: 1px;
+}
+#register-main-content #registerForm span i{
+	display: inline-block;
+    font-style: normal
+}
+
+#register-main-content #registerForm .user-name input,
+#register-main-content #registerForm .user-pass input,
+#register-main-content #registerForm .conf-pass input{
+	font-size: 14px;
+    line-height: 18px;
+    height: 42px;
+    padding: 11px 8px 11px 50px;
+    width: 100%;
+    border: 1px solid #fff;
+}
+#register-main-content #registerForm .register-submit{
+	max-width: 640px;
+    margin: 20px auto;
+    width:100%;
+    height: 50px;
+    text-align: center;
+}
+#register-main-content #registerForm .register-submit input{
+	height: 100%;
+	width: 100%;
+    font-size: 16px;
+    color:#fff;
+    background-color: #e93854;
+}
+.remember-name{
+
+}
+#register-main-content .link-login{
+	margin-top: 20px;
+	font-size: 16px;
+	float: right;
+	margin-bottom: 30px;
+}

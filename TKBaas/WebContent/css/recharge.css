@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+.top-bg{
+ 	 background-image: url("../images/bg/123.jpg");
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ 	 padding-bottom: 20px;
+}
+
+
+/*信息栏*/
+.user-info>div{
+	display: inline-block;
+ 	margin: 25px 60px 15px 0;
+ 	line-height: 3em;
+ 	vertical-align: middle;
+}
+.user-pic-div{
+	width: 200px;
+	height: 200px;
+	background-color: #ea4f38;
+	border-radius: 100px;
+}
+.user-pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+
+.user-info{
+	width: 950px;
+}
+
+#info-detial>a{
+	transform: translateY(20px);
+	/*color:#ea4f38;*/
+	display: block;
+	height: 35px;
+}
+/*我的订单、地址*/
+
+.recharge{
+	width: 1000px;
+	padding: 0 0px 15px;
+	background-color: FFF;
+	margin: 20px auto;
+	border:1px solid #CCC;
+}
+
+.mt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #F3F3F3;
+	padding-left: 20px;
+}
+
+.mt>h4{
+	display: inline;
+}
+
+p{
+	margin-top: 20px;
+}
+
+label{
+	width: 200px;
+	text-align: right;
+}
+
+.input-text{
+	padding-left: 10px;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ccc;
+}
+.btn-next{
+	display: inline-block;
+	line-height: 30px;
+	background-color: #ea4f38;
+	color:#FFF;
+	border:none;
+	margin-left: 200px;
+	text-align: center;
+
+}
+
+.msg-text{
+	margin-left: 125px;
+	color:#888;
+}
+.tips{
+	margin-left: 125px;
+	border: 1px solid #ccc;
+	background-color: #F5F5F5;
+	width: 520px;
+	text-align: center;
+}
+.tips>i{	color:#61A9F4;
+}
+
+.mc{
+	width: 800px;
+	margin: 20px auto 10px;
+	border: 2px solid #EDD28B;
+	padding: 10px;
+	background-color: #FFFDEE;
+}

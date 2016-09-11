@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <property name="connection.useUnicode">true</property> 
+        <property name="connection.characterEncoding">UTF-8</property>
+
+        <!-- JDBC connection pool (use the built-in) -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- SQL dialect -->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+
+        <!-- Enable Hibernate's automatic session context management thread org.springframework.orm.hibernate5.SpringSessionContext -->
+        <property name="current_session_context_class">thread</property>
+        
+        <!-- 开启二级缓存 -->
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <!-- 
+        <property name="hibernate.cache.use_query_cache">true</property>
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+        <property name="hibernate.cache.provider_configuration_file_resource_path">/WEB-INF/classes/ehcache.xml</property>    
+         -->
+         
+         <!-- Echo all executed SQL to stdout -->
+         <property name="show_sql">true</property>
+
+         <!-- Drop and re-create the database schema on startup -->
+        <!----> <property name="hbm2ddl.auto">update</property>
+  
+        <!-- <mapping resource="com/hibernate/Teacher.hbm.xml"/> -->
+        <!-- <mapping class="com.SM.table.UserLogin"></mapping> -->
+        <mapping class="com.tk.baas.model.User"/>
+        <mapping class="com.tk.baas.model.Address"/>
+        <mapping class="com.tk.baas.model.Product"/>
+        <mapping class="com.tk.baas.model.Comment" />
+        <mapping class="com.tk.baas.model.SaleOrder"/>
+        <mapping class="com.tk.baas.model.Seller"/>
+        <mapping class="com.tk.baas.model.Admin"/>
+        <mapping class="com.tk.baas.model.Picture"/>
+        <mapping class="com.tk.baas.model.Cart"/>
+        <mapping class="com.tk.baas.model.CartSellerItem"/>
+        <mapping class="com.tk.baas.model.CartSellerProItem"/>
+        <mapping class="com.tk.baas.model.ProDetailPicture"/>
+    </session-factory>
+
+</hibernate-configuration>

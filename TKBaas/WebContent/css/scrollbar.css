@@ -1,0 +1,72 @@
+/* jdf-1.0.0/ scrollbar.css Date:2015-09-15 18:39:14 */
+.ui-scrollbar {
+	overflow: auto;
+}
+
+.ui-scrollbar-bg,.ui-scrollbar-head,.ui-scrollbar-head-max,.ui-scrollbar-item,.ui-scrollbar-nail,.ui-scrollbar-nail-max {
+	position: absolute;
+	background: url(//misc.360buyimg.com/jdf/1.0.0/ui/scrollbar/1.0.0/scrollbar.png);
+	height: 15px;
+	background-position: 0 0
+}
+
+.ui-scrollbar-head-hover {
+	background-position: -15px 0
+}
+
+.ui-scrollbar-head-on {
+	background-position: -30px 0
+}
+
+.ui-scrollbar-nail {
+	background-position: 0 -15px
+}
+
+.ui-scrollbar-nail-hover {
+	background-position: -15px -15px
+}
+
+.ui-scrollbar-nail-on {
+	background-position: -30px -15px
+}
+
+.ui-scrollbar-head-max {
+	background-position: 0 -32px
+}
+
+.ui-scrollbar-head-max-hover {
+	background-position: -15px -32px
+}
+
+.ui-scrollbar-head-max-on {
+	background-position: -30px -32px
+}
+
+.ui-scrollbar-nail-max {
+	background-position: 0 -31px
+}
+
+.ui-scrollbar-nail-max-hover {
+	background-position: -15px -31px
+}
+
+.ui-scrollbar-nail-max-on {
+	background-position: -30px -31px
+}
+
+.ui-scrollbar-item {
+	border: 1px solid #bcbcbc;
+	background-position: -45px 0
+}
+
+.ui-scrollbar-item-hover {
+	background-position: -58px 0
+}
+
+.ui-scrollbar-item-on {
+	background-position: -71px 0
+}
+
+.ui-scrollbar-bg {
+	background-position: 100% 0
+}

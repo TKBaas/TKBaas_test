@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+.top-bg{
+ 	 background-image: url("../images/bg/123.jpg");
+ 	 background-repeat: no-repeat;
+ 	 background-size: cover;
+ 	 padding-bottom: 20px;
+}
+
+
+/*信息栏*/
+.user-info>div{
+	display: inline-block;
+ 	margin: 25px 60px 15px 0;
+ 	line-height: 3em;
+ 	vertical-align: middle;
+
+}
+
+.user-pic-div{
+	width: 200px;
+	height: 200px;
+	background-color: #ea4f38;
+	border-radius: 100px;
+}
+.user-pic{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+
+.user-info{
+	width: 950px;
+}
+
+#info-detial>a{
+	transform: translateY(20px);
+	/*color:#ea4f38;*/
+	display: block;
+	height: 35px;
+}
+
+
+/*我的订单、地址*/
+
+.mylist{
+	width: 1000px;
+	padding: 0px 0px 15px;
+	background-color: FFF;
+	margin: 20px auto;
+	border:1px solid #CCC;
+}
+
+.mt{
+	height: 50px;
+	line-height: 50px;
+	background-color: #F3F3F3;
+	padding:0 20px;
+}
+
+.mt>h4{
+	display: inline;
+}
+.extra-r{
+	float: right;
+}
+.nocont-box{
+	height: 200px;
+	text-align: center;
+	line-height: 200px;
+}
+.nocont-box>i{
+	color: #ccc;
+	font-size: 50px;
+	transform: translate(-8px,8px);
+}
+
+
+
+
+
+/*信息设置*/
+.info-setting{
+	padding: 20px 0 60px 0;
+	width: 1000px;
+	height: 480px;
+	border:1px solid #CCC;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.info-setting>ul{
+	border-bottom: 1px solid;
+	border-color: red;
+	height: 30px;
+}
+.info-setting>ul>li{
+	float: left;
+	font-size: 20px;
+	line-height: 1.6em;
+	width: 15%;
+	text-align: center;
+	height: 30px;
+
+}
+
+/*设置tag控制样式*/
+.info-setting>ul>li.info-on{
+	border-bottom: 3px solid;
+	border-color: red;
+}
+
+.info-appear{
+	display: block;
+}
+
+.info-hide{
+	display: none;
+}
+
+/*行距*/
+.info-setting p{
+	margin-top: 25px;
+}
+
+/*头像设置*/
+.setting-portrait>*{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.setting-portrait>div>button{
+	border:none;
+	margin-top: 50px;
+	background-color: #FFF;
+	margin-left: 35px;
+}
+.setting-portrait>div>form>a{
+	margin-top: 25px;
+	background-color: #FFF;
+	margin-left: 35px;
+	display: block;
+	border: 1px solid #ccc;
+	width: 125px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.info-label{
+	width: 250px;
+	text-align: right;
+}
+
+/*性别*/
+.Gender-group>label{width: 50px;}
+.Gender{float: left;}
+
+.input-text{
+	padding-left: 10px;
+	width: 300px;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+.submit{
+	width: 200px;
+	height: 35px;
+	margin-left: 250px;
+	background-color: #ea4f38;
+	color:#FFF;
+	margin-bottom: 20px;
+}
+
+.tipdiv{
+	width: 200px;
+	height: 35px;
+	margin-left: 250px;
+	font-weight: 900;
+	transform: translateY(20px);
+	
+}
+
